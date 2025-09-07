@@ -8,29 +8,24 @@ const Hobbies = () => {
       icon: <FaGamepad className="text-3xl" />,
       title: "Game Development",
       description: "Recently developed a strong interest in game development! I've built my own PC and enjoy gaming on PS5. Excited to explore creating games and learning about game design, programming, and interactive experiences.",
-      technologies: ["PC Building", "PS5 Gaming", "Game Design", "Programming"],
+      technologies: ["PC Building", "Game Design", "Programming"],
       projects: [
-        "Custom PC Build",
-        "Game Development Learning"
       ]
     },
     {
       icon: <FaBrain className="text-3xl" />,
       title: "Learning Technology",
-      description: "Passionate about exploring cutting-edge technology and geeky innovations. Love diving deep into AI, robotics, and building new things with software.",
-      technologies: ["AI/ML", "Raspberry Pi", "Software Development"],
+      description: "Passionate about exploring cutting-edge technology and geeky innovations. Love diving deep into AI, App Development, and building new things with software.",
+      technologies: ["AI/ML", "Raspberry Pi", "Software Development", "Swift", "AWS"],
       projects: [
-        "AI Projects",
-        "iOS App Development",
-        "VR Development",
-        "Raspberry Pi Projects"
+
       ]
     },
     {
       icon: <FaCamera className="text-3xl" />,
       title: "Cinema Photography",
       description: "Capturing cinematic moments and telling stories through photography. Love experimenting with different techniques and creating visually compelling compositions.",
-      technologies: ["Drone", "Lightroom", "Photoshop", "Video Editing", "Cinematic Techniques"],
+      technologies: ["Drone", "Video Editing"],
       projects: []
     },
     {

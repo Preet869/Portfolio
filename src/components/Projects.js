@@ -32,7 +32,7 @@ const Projects = () => {
       live: "https://movie-recommender-demo.com"
     },
     {
-      title: 'TO-DO list Full Stack',
+      title: 'To-Do List Full Stack',
       type: 'Personal Project',
       period: "March 2025 - April 2025",
       technologies: "React, Spring Boot, RESTful APIs, H2-Database",
@@ -41,6 +41,18 @@ const Projects = () => {
         "Built with React.js for the frontend and Spring Boot (Java) for the backend, this app allows users to create, edit, delete, and mark tasks as complete, with data persisted in an H2 database.",
       ],
       github: "https://github.com/Preet869/TO-DO-list-Full-Stack",
+    },
+    {
+      title: 'Months',
+      type: 'Personal Project',
+      period: 'August 2025 - Present',
+      technologies: 'Swift',
+      description: [
+        "Months is a IOS App that allows users to take one photo each month.",
+        "The app is desinged to encourage users to creative with their photos each month.",
+        "Each photo is saved in the app and the user can view them all in a grid view.",
+        "Alowing users to add a caption to each photo."
+      ]
     }
   ];
 
@@ -128,7 +140,7 @@ const Projects = () => {
           className="text-center mt-12"
         >
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/Preet869?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200"

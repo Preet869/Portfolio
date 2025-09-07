@@ -39,7 +39,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             className="flex-shrink-0"
           >
-            <a href="#home" className="text-2xl font-bold text-primary-500 code-font glow-effect">
+            <a href="#home" className="text-2xl font-bold text-primary-500 code-font">
               Preet Dhillon
             </a>
           </motion.div>
