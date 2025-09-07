@@ -67,11 +67,11 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-terminal-text">Connect</h4>
             <div className="space-y-3">
               <a
-                href="mailto:preetinder.dhillon@example.com"
+                href="mailto:preet_231@icloud.com"
                 className="flex items-center gap-2 text-terminal-text/80 hover:text-primary-500 transition-colors duration-200"
               >
                 <FaEnvelope />
-                <span>preetinder.dhillon@example.com</span>
+                <span>preet****@icloud.com</span>
               </a>
             </div>
             

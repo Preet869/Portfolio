@@ -74,15 +74,15 @@ const About = () => {
             {/* Key Stats */}
             <div className="grid grid-cols-3 gap-4 pt-4">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary-500 glow-effect">1+</div>
+                <div className="text-3xl font-bold text-primary-500">1+</div>
                 <div className="text-sm text-terminal-text/60">Years Experience</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary-500 glow-effect">2+</div>
+                <div className="text-3xl font-bold text-primary-500">5+</div>
                 <div className="text-sm text-terminal-text/60">Projects Completed</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary-500 glow-effect">20+</div>
+                <div className="text-3xl font-bold text-primary-500">15+</div>
                 <div className="text-sm text-terminal-text/60">Technologies</div>
               </div>
             </div>
@@ -104,7 +104,7 @@ const About = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
                 whileHover={{ scale: 1.05 }}
-                className="bg-terminal-bg border border-terminal-accent/20 p-4 rounded-lg hover:shadow-lg hover:border-primary-500/50 transition-all duration-300 glow-effect"
+                className="bg-terminal-bg border border-terminal-accent/20 p-4 rounded-lg hover:shadow-lg hover:border-primary-500/50 transition-all duration-300"
               >
                 <div className="text-primary-500 mb-4">{feature.icon}</div>
                 <h4 className="text-xl font-semibold text-terminal-text mb-2">

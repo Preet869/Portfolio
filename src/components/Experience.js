@@ -31,7 +31,7 @@ const Experience = () => {
           className="text-center mb-8"
         >
           <h2 className="text-4xl font-bold text-terminal-text mb-4">Work Experience</h2>
-          <div className="w-24 h-1 bg-primary-500 mx-auto glow-effect"></div>
+          <div className="w-24 h-1 bg-primary-500 mx-auto"></div>
         </motion.div>
 
         <div className="space-y-8">
@@ -52,13 +52,13 @@ const Experience = () => {
               <div className="flex flex-col md:flex-row gap-6">
                 {/* Timeline dot */}
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 bg-primary-500 rounded-full flex items-center justify-center shadow-lg terminal-glow">
+                  <div className="w-16 h-16 bg-primary-500 rounded-full flex items-center justify-center shadow-lg">
                     <FaBriefcase className="text-white text-xl" />
                   </div>
                 </div>
 
                 {/* Content */}
-                <div className="flex-1 bg-terminal-bg border border-terminal-accent/20 p-6 rounded-lg shadow-lg hover:shadow-xl hover:border-primary-500/50 transition-all duration-300 glow-effect">
+                <div className="flex-1 bg-terminal-bg border border-terminal-accent/20 p-6 rounded-lg shadow-lg hover:shadow-xl hover:border-primary-500/50 transition-all duration-300">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                     <h3 className="text-2xl font-bold text-terminal-text mb-2 md:mb-0">
                       {experience.title}

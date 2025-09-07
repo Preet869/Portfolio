@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaEnvelope, FaDownload, FaCode, FaTerminal } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaCode, FaTerminal } from 'react-icons/fa';
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
@@ -37,9 +37,6 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, [displayText, currentIndex, isDeleting]);
 
-  const scrollToContact = () => {
-    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
-  };
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center bg-terminal-bg">
@@ -61,7 +58,7 @@ const Hero = () => {
                 className="text-5xl lg:text-6xl font-bold text-terminal-text leading-tight"
               >
                 Hi, I'm{' '}
-                <span className="text-primary-500 glow-effect">Preet Dhillon</span>
+                <span className="text-primary-500">Preet Dhillon</span>
               </motion.h1>
               
               <motion.div
@@ -86,35 +83,6 @@ const Hero = () => {
               </motion.p>
             </div>
 
-            {/* CTA Buttons */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.8 }}
-              className="flex flex-col sm:flex-row gap-4"
-            >
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={scrollToContact}
-                className="bg-primary-500 text-terminal-bg px-8 py-3 rounded-lg font-semibold hover:bg-primary-400 transition-all duration-200 flex items-center justify-center gap-2 terminal-glow"
-              >
-                Get In Touch
-                <FaEnvelope />
-              </motion.button>
-              
-              <motion.a
-                href="/resume.pdf"
-                download
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="border-2 border-primary-500 text-primary-500 px-8 py-3 rounded-lg font-semibold hover:bg-primary-500 hover:text-terminal-bg transition-all duration-200 flex items-center justify-center gap-2 glow-effect"
-              >
-                Download Resume
-                <FaDownload />
-              </motion.a>
-            </motion.div>
-
             {/* Social Links */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -123,7 +91,7 @@ const Hero = () => {
               className="flex gap-6"
             >
               <motion.a
-                href="https://github.com/yourusername"
+                href="https://github.com/Preet869"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.2, y: -2 }}
@@ -133,7 +101,7 @@ const Hero = () => {
               </motion.a>
               
               <motion.a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/preet-dhillon-09b174270/"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.2, y: -2 }}
@@ -143,7 +111,7 @@ const Hero = () => {
               </motion.a>
               
               <motion.a
-                href="mailto:your.email@example.com"
+                href="mailto:preet_231@icloud.com"
                 whileHover={{ scale: 1.2, y: -2 }}
                 className="text-terminal-text/60 hover:text-primary-500 transition-colors duration-200"
               >

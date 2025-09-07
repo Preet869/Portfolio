@@ -1,47 +1,30 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 const Contact = () => {
-  const contactInfo = [
-    {
-      icon: <FaEnvelope />,
-      title: "Email",
-      value: "preetinder.dhillon@example.com",
-      link: "mailto:preetinder.dhillon@example.com"
-    },
-    {
-      icon: <FaPhone />,
-      title: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
-    },
-    {
-      icon: <FaMapMarkerAlt />,
-      title: "Location",
-      value: "San Francisco, CA",
-      link: null
-    }
-  ];
 
   const socialLinks = [
     {
       icon: <FaLinkedin />,
       name: "LinkedIn",
-      url: "https://linkedin.com/in/yourusername",
-      color: "hover:text-blue-600"
+      url: "https://www.linkedin.com/in/preet-dhillon-09b174270/",
+      color: "hover:text-blue-600",
+      username: "@Preet Dhillon"
     },
     {
       icon: <FaGithub />,
       name: "GitHub",
-      url: "https://github.com/yourusername",
-      color: "hover:text-gray-400"
+      url: "https://github.com/Preet869",
+      color: "hover:text-gray-400",
+      username: "@preet869"
     },
     {
-      icon: <FaTwitter />,
-      name: "Twitter",
-      url: "https://twitter.com/yourusername",
-      color: "hover:text-blue-400"
+      icon: <FaEnvelope />,
+      name: "Email",
+      url: "mailto:preet_231@icloud.com",
+      color: "hover:text-green-400",
+      username: "@preet***@icloud.com"
     }
   ];
 
@@ -56,7 +39,7 @@ const Contact = () => {
           className="text-center mb-8"
         >
           <h2 className="text-4xl font-bold text-terminal-text mb-4">Get In Touch</h2>
-          <div className="w-24 h-1 bg-primary-500 mx-auto mb-8 glow-effect"></div>
+          <div className="w-24 h-1 bg-primary-500 mx-auto mb-8"></div>
           <p className="text-xl text-terminal-text/80 max-w-2xl mx-auto">
             I'm always interested in new opportunities and exciting projects. 
             Feel free to reach out if you'd like to collaborate or just want to say hello!
@@ -65,54 +48,14 @@ const Contact = () => {
 
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Contact Information */}
-            <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
-              viewport={{ once: true }}
-              className="bg-terminal-bg border border-terminal-accent/20 p-6 rounded-lg shadow-lg hover:border-primary-500/50 transition-all duration-300 glow-effect"
-            >
-              <h3 className="text-2xl font-bold text-terminal-text mb-6">Contact Information</h3>
-              
-              <div className="space-y-6">
-                {contactInfo.map((info, index) => (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                    viewport={{ once: true }}
-                    className="flex items-center gap-4"
-                  >
-                    <div className="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center text-primary-500 border border-primary-500/30">
-                      {info.icon}
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-terminal-text">{info.title}</h4>
-                      {info.link ? (
-                        <a
-                          href={info.link}
-                          className="text-terminal-text/80 hover:text-primary-500 transition-colors duration-200"
-                        >
-                          {info.value}
-                        </a>
-                      ) : (
-                        <p className="text-terminal-text/80">{info.value}</p>
-                      )}
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
-            </motion.div>
-
+            
             {/* Social Links */}
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
-              className="bg-terminal-bg border border-terminal-accent/20 p-6 rounded-lg shadow-lg hover:border-primary-500/50 transition-all duration-300 glow-effect"
+              className="bg-terminal-bg border border-terminal-accent/20 p-6 rounded-lg shadow-lg hover:border-primary-500/50 transition-all duration-300"
             >
               <h3 className="text-2xl font-bold text-terminal-text mb-6">Follow Me</h3>
               
@@ -135,7 +78,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-terminal-text">{social.name}</h4>
-                      <p className="text-terminal-text/60 text-sm">@{social.name.toLowerCase()}</p>
+                      <p className="text-terminal-text/60 text-sm">{social.username}</p>
                     </div>
                   </motion.a>
                 ))}
@@ -151,7 +94,7 @@ const Contact = () => {
             viewport={{ once: true }}
             className="mt-8 text-center"
           >
-            <div className="bg-terminal-bg border border-primary-500/30 p-6 rounded-lg glow-effect">
+            <div className="bg-terminal-bg border border-primary-500/30 p-6 rounded-lg">
               <div className="flex items-center justify-center gap-3 mb-4">
                 <div className="w-3 h-3 bg-primary-500 rounded-full animate-pulse"></div>
                 <h4 className="font-semibold text-terminal-text text-xl">Available for Opportunities</h4>
