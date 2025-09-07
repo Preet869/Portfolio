@@ -46,17 +46,15 @@ const Contact = () => {
           </p>
         </motion.div>
 
-        <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            
-            {/* Social Links */}
-            <motion.div
-              initial={{ opacity: 0, x: 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
-              viewport={{ once: true }}
-              className="bg-terminal-bg border border-terminal-accent/20 p-6 rounded-lg shadow-lg hover:border-primary-500/50 transition-all duration-300"
-            >
+        <div className="max-w-2xl mx-auto">
+          {/* Social Links */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="bg-terminal-bg border border-terminal-accent/20 p-6 rounded-lg shadow-lg hover:border-primary-500/50 transition-all duration-300"
+          >
               <h3 className="text-2xl font-bold text-terminal-text mb-6">Follow Me</h3>
               
               <div className="space-y-6">
@@ -84,7 +82,6 @@ const Contact = () => {
                 ))}
               </div>
             </motion.div>
-          </div>
 
           {/* Availability Status */}
           <motion.div
