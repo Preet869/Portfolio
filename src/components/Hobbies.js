@@ -24,7 +24,7 @@ const Hobbies = () => {
     {
       icon: <FaCamera className="text-3xl" />,
       title: "Cinema Photography",
-      description: "Capturing cinematic moments and telling stories through photography. Love experimenting with different techniques and creating visually compelling compositions.",
+      description: "Capturing cinematic moments and telling stories through photography. I like experimenting with different techniques and creating visually compelling compositions.",
       technologies: ["Drone", "Video Editing"],
       projects: []
     },

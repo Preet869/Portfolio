@@ -10,13 +10,12 @@ const Experience = () => {
       period: "June 2025 - Present",
       location: "Remote",
       description: [
-        "Developed and deployed full-stack features for a cloud-native streaming platform using React, Supabase, AWS, Stripe contributing to both frontend UI and backend infrastructure",
-        "Owned Supabase Edge Functions and Stripe integration, maintaining 99% uptime with zero payment or function failures, by implementing secure Deno-based serverless workflows",
-        "Accelerated feature delivery by 25% in a fast-paced startup environment, taking ownership of critical features and rapidly adapting to a modern tech stack",
-        "Architected an AI-powered movie recommendation engine using Supabase, AWS, and LLMs, analyzing behavioral signals (views, clicks, rewatch patterns) to generate scene-level personalized suggestions",
-        "Implemented robust software design principles across full-stack project (React, Supabase, AWS), enabling modularity and maintainability that reduced onboarding time for new developers by 30% and improved code review efficiency by 40%"
+        "Pixquid is a cloud-native streaming platform tackling the 2% problem in film distribution by building fair, AI-powered solutions for filmmakers, studios, and audiences.",
+        "At Pixquid, Developed and deployed full-stack features for the platform using React, Supabase, AWS, and Stripe, contributing to both frontend UI and backend infrastructure.",
+        "Owned Supabase Edge Functions and Stripe integration, achieving 99% uptime with zero payment or function failures through secure Deno-based serverless workflows.",
+        "Accelerated feature delivery by 25% in a fast-paced startup environment by taking ownership of critical features and adapting quickly to a modern cloud-native stack.",
       ],
-      technologies: ["React", "Supabase", "AWS", "Stripe", "Deno", "LLMs", "Serverless"]
+        technologies: ["React", "Supabase", "AWS", "Stripe", "Deno", "LLMs", "Serverless"]
     }
   ];
 

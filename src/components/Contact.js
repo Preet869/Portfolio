@@ -17,7 +17,7 @@ const Contact = () => {
       name: "GitHub",
       url: "https://github.com/Preet869",
       color: "hover:text-gray-400",
-      username: "@preet869"
+      username: "@Preet869"
     },
     {
       icon: <FaEnvelope />,
@@ -82,7 +82,6 @@ const Contact = () => {
                 ))}
               </div>
             </motion.div>
-
           {/* Availability Status */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -96,10 +95,6 @@ const Contact = () => {
                 <div className="w-3 h-3 bg-primary-500 rounded-full animate-pulse"></div>
                 <h4 className="font-semibold text-terminal-text text-xl">Available for Opportunities</h4>
               </div>
-              <p className="text-terminal-text/80 max-w-2xl mx-auto">
-                I'm currently open to new opportunities and would love to hear about your project! 
-                Whether it's web development, game development, or creative collaboration, let's connect.
-              </p>
             </div>
           </motion.div>
         </div>
