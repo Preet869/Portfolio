@@ -29,7 +29,7 @@ const Projects = () => {
         "Built and tested secure Flask RESTful endpoints that handled hundreds of simulated requests with 0% authentication failures, ensuring reliable backend functionality."
       ],
       github: "https://github.com/Preet869/Movie-Recommender-",
-      live: "https://movie-recommender-demo.com"
+      live: "https://youtu.be/DdhqmoJNuik?si=klaFChBmKCxe1aqh"
     },
     {
       title: 'To-Do List Full Stack',
@@ -113,7 +113,7 @@ const Projects = () => {
                       className="flex items-center gap-2 text-terminal-text/60 hover:text-primary-500 transition-colors duration-200"
                     >
                       <FaExternalLinkAlt />
-                      <span className="text-sm">Live Demo</span>
+                      <span className="text-sm">Youtube Demo</span>
                     </a>
                   )}
                 </div>
