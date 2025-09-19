@@ -16,7 +16,7 @@ const Projects = () => {
         "Implemented smart keyword tracking and timeline-based follow-ups with progress animations to boost user engagement and relevance to coursework."
       ],
       github: "https://github.com/Preet869/DeepResearch",
-      live: "https://ai-research-demo.com"
+      live: "https://youtu.be/1hDUYkKJPXI"
     },
     {
       title: "Movie Recommender",
