@@ -7,7 +7,7 @@ const Experience = () => {
     {
       title: "Full Stack Engineer",
       company: "Pixquid",
-      period: "June 2025 - Present",
+      period: "June 2024 - Present",
       location: "Remote",
       description: [
         "Pixquid is a cloud-native streaming platform tackling the 2% problem in film distribution by building fair, AI-powered solutions for filmmakers, studios, and audiences.",
