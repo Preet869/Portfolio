@@ -103,16 +103,6 @@ npm run build
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📞 Contact
-
-- **Email**: preetinder.dhillon@example.com
-- **LinkedIn**: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
-
 ---
 
 Made with ❤️ using React & Tailwind CSS
