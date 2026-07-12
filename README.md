@@ -13,6 +13,9 @@ A modern, responsive portfolio website built with React, showcasing my skills, e
 - **Project Showcase**: Filterable project gallery
 - **Skills Visualization**: Interactive skill progress bars
 
+
+
+
 ## 🛠️ Technologies Used
 
 - **Frontend**: React 18, Tailwind CSS, Framer Motion
