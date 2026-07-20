@@ -3,10 +3,6 @@
 A modern, responsive portfolio website built with React, showcasing my skills, experience, and projects as a Full Stack Engineer.
 
 ## 🚀 Features
-
-
-
-
 - **Responsive Design**: Optimized for all devices and screen sizes
 - **Modern UI/UX**: Clean, professional design with smooth animations
 - **Interactive Components**: Engaging user experience with Framer Motion
