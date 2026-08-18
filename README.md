@@ -14,6 +14,9 @@ A modern, responsive portfolio website built with React, showcasing my skills, e
 
 ## 🛠️ Technologies Used
 
+
+
+
 - **Frontend**: React 18, Tailwind CSS, Framer Motion
 - **Icons**: React Icons
 - **Styling**: Tailwind CSS with custom configuration
