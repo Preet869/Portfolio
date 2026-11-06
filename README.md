@@ -1,4 +1,4 @@
-# Preetinder Dhillon - Portfolio Website
+# Preet Dhillon - Portfolio Website
 
 A modern, responsive portfolio website built with React, showcasing my skills, experience, and projects as a Full Stack Engineer.
 
@@ -11,8 +11,6 @@ A modern, responsive portfolio website built with React, showcasing my skills, e
 - **Contact Form**: Functional contact form for inquiries
 - **Project Showcase**: Filterable project gallery
 - **Skills Visualization**: Interactive skill progress bars
-
-
 
 ## 🛠️ Technologies Use
 
